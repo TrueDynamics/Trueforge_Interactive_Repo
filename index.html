@@ -4,19 +4,78 @@
     <meta charset="UTF-8">
     <title>Trueforge Interactive</title>
     <style>
-        body { font-family: Arial, sans-serif; background: #2c2c2c; color: #e0e0e0; margin: 0; }
-        header { background: #4a3c31; padding: 15px; text-align: center; }
-        .logo { max-width: 250px; }
-        .content { padding: 30px; text-align: center; }
-        video { max-width: 80%; border: 2px solid #8b5e3c; }
-        nav { margin: 10px 0; }
-        nav a { color: #d4a017; margin: 0 15px; text-decoration: none; }
-        nav a:hover { color: #fff; }
+        body { 
+            font-family: Arial, sans-serif; 
+            background: #2c2c2c; 
+            color: #e0e0e0; 
+            margin: 0; 
+        }
+        header { 
+            position: relative; 
+            text-align: center; 
+            padding: 20px; 
+            overflow: hidden; 
+        }
+        .banner { 
+            width: 100%; 
+            height: 300px; /* Adjusted for 504px native height */
+            object-fit: cover; 
+            position: absolute; 
+            top: 0; 
+            left: 0; 
+            z-index: 1; 
+        }
+        .logo { 
+            max-width: 250px; 
+            position: relative; 
+            z-index: 2; 
+        }
+        h1 { 
+            position: relative; 
+            z-index: 2; 
+            color: #e0e0e0; 
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+            margin-top: 10px; 
+        }
+        .content { 
+            padding: 30px; 
+            text-align: center; 
+        }
+        video { 
+            max-width: 80%; 
+            border: 2px solid #8b5e3c; 
+        }
+        nav { 
+            margin: 10px 0; 
+        }
+        nav a { 
+            color: #d4a017; 
+            margin: 0 15px; 
+            text-decoration: none; 
+        }
+        nav a:hover { 
+            color: #fff; 
+        }
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .banner { 
+                height: 150px; /* Reduce height for mobile */
+            }
+            .logo { 
+                max-width: 150px; /* Smaller logo on mobile */
+            }
+            h1 { 
+                font-size: 1.5em; /* Adjust header text for mobile */
+            }
+        }
     </style>
 </head>
 <body>
     <header>
-        <img src="trueforge_logo.png" alt="Trueforge Interactive Logo" class="logo">
+        <!-- Trueforge banner (1513x504px, compressed to 88KB) -->
+        <img src="trueforgebanner.png" alt="Trueforge Interactive Banner" class="banner" loading="lazy">
+        <!-- Trueforge logo overlaid on banner -->
+        <img src="trueforge_logo.png" alt="Trueforge Interactive Logo" class="logo" loading="lazy">
         <h1>Trueforge Interactive</h1>
     </header>
     <nav>
@@ -28,9 +87,9 @@
         <h2>Welcome to Our Worlds</h2>
         <p>Crafting epic tales and innovative games. Stay tuned!</p>
         <video controls>
-            <source src="wyrmrise_teaser.mp4" type="video/mp4">
+            <source src="unnamed_project_teaser.mp4" type="video/mp4">
         </video>
-        <p>Follow us on X <a href="https://x.com/TrueForgeGames">@TrueForgeGames</a></p>
+        <p>Follow us on <a href="https://x.com/TrueForgeGames">@TrueForgeGames</a></p>
     </div>
 </body>
 </html>
