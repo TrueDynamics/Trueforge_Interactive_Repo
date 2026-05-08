@@ -6,7 +6,7 @@ This repository contains the source code for the studio's foundation website.
 
 ## 🌐 Live Site
 
-[trueforge-interactive.com](https://trueforge-interactive.com)
+[trueforgeinteractive.com](https://trueforgeinteractive.com/)
 
 ## 📍 Current Status
 
