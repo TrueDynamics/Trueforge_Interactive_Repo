@@ -4,21 +4,23 @@
 
 This repository contains the source code for the studio's foundation website.
 
-## 🌐 Live Site
+## Live Site
 
 [trueforgeinteractive.com](https://trueforgeinteractive.com/)
 
-## 📍 Current Status
+Publishing arm: [trueforgeinteractive.com/publishing](https://trueforgeinteractive.com/publishing/)
+
+## Current Status
 
 - Building the basic online presence for the studio
 - First game is in active development (training project phase)
 - More content, media, and information will be added as development progresses
 
-## 🔗 Follow Development
+## Follow Development
 
 - **X / Twitter**: [@TrueForgeGames](https://x.com/TrueForgeGames)
 
-## 🛠️ Running Locally
+## Running Locally
 
 This is a simple static HTML site. To view it locally:
 
@@ -27,6 +29,6 @@ This is a simple static HTML site. To view it locally:
 
 No build step or dependencies required.
 
-## 📄 License
+## License
 
 © 2026 Trueforge Interactive. All rights reserved.
